@@ -9,8 +9,6 @@ import (
 
 const URL = "https://api.openweathermap.org/data/2.5/weather"
 
-//const URL = "https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=3a17a33b2c242e1bc22f0303ff5c7ebc"
-
 // API holds the http client and the url to call
 type API struct {
 	Client  *http.Client
