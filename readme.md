@@ -24,7 +24,7 @@ import (
 func main() {
 	myWeather := weather.API{
 		Client:  &http.Client{Timeout: 10 * time.Second},
-		Key:     "3a17a33b2c242e1bc22f0303ff5c7ebc",
+		Key:     "SomeKey",
 		City:    "Fredericton",
 		Country: "ca",
 	}
